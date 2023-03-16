@@ -9,7 +9,7 @@
     color: white;
     font-size: 5vmin;
     border: 5px ;
-    height: 60vmin;
+    height: 60vh;
     width: 100vw;
    
     font-family: "serif";
@@ -39,7 +39,7 @@ img{
 }
 .country{
     max-width: 33%;
-    font-size: 6vmin;
+    font-size: 4vw;
 }
 
 
