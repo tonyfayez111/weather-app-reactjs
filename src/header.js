@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 export const Header = (props) => {
   const [location, setLoacation] = useState("Egypt");
-  const url = `http://api.weatherapi.com/v1/current.json?key=10109f2e84f34bf6be1183115231103&q=${location}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=10109f2e84f34bf6be1183115231103&q=${location}&aqi=no`;
 
   useEffect(() => {
     axios.get(url).then((response) => {
